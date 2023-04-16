@@ -23,10 +23,10 @@ function detailCard(series) {
     var div = document.getElementById('detail-card');
     var lst = document.querySelectorAll('tr.fila-click');
     console.log(lst.length);
-    div.innerHTML = "<div class=\"card\" style=\"width: 18rem;\">\n  <img class=\"card-img-top\" src=\"".concat(series[0].image, "\" >\n  <div class=\"card-body\">\n    <h5 class=\"card-title\">").concat(series[0].name, "</h5>\n    <p class=\"card-text\">").concat(series[0].description, "</p>\n    <a href=\"").concat(series[0].url, "\">").concat(series[0].url, "</a>\n  </div>");
+    div.innerHTML = "<div class=\"card\" style=\"width: 18rem;\">\n  <img class=\"card-img-top\" title =\"sapo\" src=\"".concat(series[0].image, "\" >\n  <div class=\"card-body\">\n    <h5 class=\"card-title\">").concat(series[0].name, "</h5>\n    <p class=\"card-text\">").concat(series[0].description, "</p>\n    <a href=\"").concat(series[0].url, "\">").concat(series[0].url, "</a>\n  </div>");
     var _loop_1 = function (i) {
         lst[i].addEventListener('click', function () {
-            div.innerHTML = "<div class=\"card\" style=\"width: 18rem;\">\n      <img class=\"card-img-top\" src=\"".concat(series[i].image, "\" >\n      <div class=\"card-body\">\n        <h5 class=\"card-title\">").concat(series[i].name, "</h5>\n        <p class=\"card-text\">").concat(series[i].description, "</p>\n        <a href=\"").concat(series[i].url, "\">").concat(series[i].url, "</a>\n      </div>");
+            div.innerHTML = "<div class=\"card\" style=\"width: 18rem;\">\n      <img class=\"card-img-top\" title = \"sapo\" src=\"".concat(series[i].image, "\" >\n      <div class=\"card-body\">\n        <h5 class=\"card-title\">").concat(series[i].name, "</h5>\n        <p class=\"card-text\">").concat(series[i].description, "</p>\n        <a href=\"").concat(series[i].url, "\">").concat(series[i].url, "</a>\n      </div>");
         });
     };
     for (var i = 0; i < lst.length; i++) {
