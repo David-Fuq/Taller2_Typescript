@@ -17,48 +17,5 @@ export class Serie {
         this.image = image;
     }
 
-//     //Getters and Setters
 
-//     getId(): number {
-//         return this.id;
-//     }
-//     setId(id: number) {
-//         this.id = id;
-//     }
-//     getName(): string {
-//         return this.name;
-//     }
-//     setName(name: string) {
-//         this.name = name;
-//     }
-//     getChannel(): string {
-//         return this.channel;
-//     }
-//     setChannel(channel: string) {
-//         this.channel = channel;
-//     }
-//     getSeasons(): number {
-//         return this.seasons;
-//     }
-//     setSeasons(seasons: number) {
-//         this.seasons = seasons;
-//     }
-//     getDescription(): string {
-//         return this.description;
-//     }
-//     setDescription(description: string) {
-//         this.description = description;
-//     }
-//     getUrl(): string {
-//         return this.url;
-//     }
-//     setUrl(url: string) {
-//         this.url = url;
-//     }
-//     getImage(): string {
-//         return this.image;
-//     }
-//     setImage(image: string) {
-//         this.image = image;
-//     }
 }
